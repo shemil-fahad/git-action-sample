@@ -12,4 +12,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.key }}
           source: "."
-          target: /var/www/html
+          target: "/var/www/html"
